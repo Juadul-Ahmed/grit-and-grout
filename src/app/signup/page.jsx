@@ -112,6 +112,8 @@ export default function SignUpPage() {
           </Button>
         </div>
       </Form>
+  
+    
     </Card>
   );
 }
