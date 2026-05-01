@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import FeaturedTiles from "@/components/FeaturedTiles";
 import MarqueeSection from "@/components/Marquee";
+import StoreLocation from "@/components/StoreLocation";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
      <Banner/>
      <MarqueeSection/>
      <FeaturedTiles/>
+     <StoreLocation/>
     </div>
   );
 }
