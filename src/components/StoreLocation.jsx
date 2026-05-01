@@ -5,16 +5,16 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaGlobeAsia, FaExternalLinkAlt } f
 const StoreLocation = () => {
   const locations = [
     {
-      city: "Shanghai Studio",
-      address: "District 5, West Bund Art Center",
-      phone: "+86 21 5555 0123",
+      city: "Cumilla Studio",
+      address: "Kandirpar, Kazi Nazrul Ave",
+      phone: "+88 21 5555 0123",
       hours: "09:00 - 18:00",
       status: "Open Now",
     },
     {
-      city: "Guangzhou Hub",
-      address: "Tianhe District, Ceramic Plaza",
-      phone: "+86 20 8888 4567",
+      city: "Dhaka Hub",
+      address: "Gulshan 2, Ceramic Plaza",
+      phone: "+88 20 8888 4567",
       hours: "10:00 - 19:00",
       status: "Showroom Only",
     }
@@ -82,7 +82,7 @@ const StoreLocation = () => {
                 Can't visit <br />in person?
               </h3>
               <p className="text-zinc-400 text-sm mb-6">
-                Schedule a virtual walkthrough with our design consultants via WeChat or Zoom.
+                Schedule a virtual walkthrough with our design consultants via Google Meet or Zoom.
               </p>
               <Button className="bg-[#06b6d4] text-white font-black uppercase tracking-widest text-[10px] px-8">
                 Book Virtual Tour
