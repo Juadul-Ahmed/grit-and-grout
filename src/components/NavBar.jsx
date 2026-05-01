@@ -21,14 +21,15 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
-            <Link href={"/profile"} className="hover:text-[#06b6d4] transition-colors">
-              My Profile
-            </Link>
-          </li>
+         
           <li>
             <Link href={"/all-tiles"} className="hover:text-[#06b6d4] transition-colors">
               All Tiles
+            </Link>
+          </li>
+           <li>
+            <Link href={"/profile"} className="hover:text-[#06b6d4] transition-colors">
+              My Profile
             </Link>
           </li>
         </ul>
