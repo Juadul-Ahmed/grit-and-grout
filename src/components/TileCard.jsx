@@ -52,7 +52,7 @@ const TileCard = ({ tile }) => {
       </div>
 
 
-      <Link href={`/tiles/${tile.id}`} className="w-full">
+      <Link href={`/all-tiles/${tile.id}`} className="w-full">
         <Button 
           variant="solid" 
           className="w-full bg-[#27272a] hover:bg-[#06b6d4] text-white font-bold uppercase tracking-widest text-[10px] py-6"
