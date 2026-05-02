@@ -17,13 +17,13 @@ The goal of this project was to build a high-performance, SEO-friendly e-commerc
 *   **Responsive UI/UX** using modern utility-first CSS and component libraries.
 
 ## ✨ Key Features
-*   **Google Authentication**: Secure login/logout flow powered by **Better-auth**[cite: 1].
-*   **Dynamic Category Filtering**: Real-time tile filtering using URL search parameters[cite: 1].
-*   **Product Detail Pages**: Dynamic `[id]` routes that fetch and display detailed specifications for each tile[cite: 1].
+*   **Google Authentication**: Secure login/logout flow powered by **Better-auth**.
+*   **Dynamic Category Filtering**: Real-time tile filtering using URL search parameters.
+*   **Product Detail Pages**: Dynamic `[id]` routes that fetch and display detailed specifications for each tile.
 *   **Custom Global UI**:
-    *   Centered, responsive navigation and category selection[cite: 1].
-    *   Custom **404 Not Found** page for graceful error handling[cite: 1].
-    *   Integrated **Loading Spinners** to improve perceived performance during data fetching[cite: 1].
+    *   Centered, responsive navigation and category selection.
+    *   Custom **404 Not Found** page for graceful error handling.
+    *   Integrated **Loading Spinners** to improve perceived performance during data fetching.
 *   **Mobile-First Design**: Fully responsive layout optimized for all screen sizes.
 
 ## 🛠️ Tech Stack & NPM Packages
@@ -32,18 +32,18 @@ This project utilizes a cutting-edge JavaScript ecosystem:
 | Category | Technology / Package |
 | :--- | :--- |
 | **Framework** | **Next.js 15+** (App Router) |
-| **Styling** | **Tailwind CSS**, **daisyUI**[cite: 1] |
-| **UI Components** | **HeroUI** (formerly NextUI)[cite: 1] |
-| **Authentication** | **Better-auth**[cite: 1] |
-| **Icons** | **Lucide React** |
+| **Styling** | **Tailwind CSS**, **HeroUi**|
+| **UI Components** | **HeroUI** (formerly NextUI) |
+| **Authentication** | **Better-auth**|
+| **Icons** | ** React-icons** |
 | **Data Fetching** | **Native Fetch API** (Server-side) |
-| **Backend/DB** | **MockAPI** (for tile data), **MongoDB** (for auth)[cite: 1] |
+| **Backend/DB** | **MockAPI** (for tile data), **MongoDB** (for auth) |
 
 
 
 ---
 
 ## 👨‍💻 Author
-**Juadul Ahmed Bhuiyan**[cite: 1]  
+**Juadul Ahmed Bhuiyan**  
 Student & Full-Stack Developer  
-*Currently exploring the React ecosystem.*[cite: 1]
+*Currently exploring the React ecosystem.*
