@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+# SlabStudio | Premium Tile Collection
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**SlabStudio** is a modern, full-stack web application designed for a premium tile showroom. It provides a curated gallery of architectural materials with dynamic filtering, secure user authentication, and a production-ready deployment architecture.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🌐 [Live URL](https://slab-studio.vercel.app/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Purpose
+The goal of this project was to build a high-performance, SEO-friendly e-commerce gallery using the **Next.js App Router**. It focuses on demonstrating mastery over:
+*   **Server-Side Rendering (SSR)** for efficient data fetching.
+*   **Dynamic Routing** for product-specific detail pages.
+*   **Authentication** integration for a secure user experience.
+*   **Responsive UI/UX** using modern utility-first CSS and component libraries.
 
-## Learn More
+## ✨ Key Features
+*   **Google Authentication**: Secure login/logout flow powered by **Better-auth**[cite: 1].
+*   **Dynamic Category Filtering**: Real-time tile filtering using URL search parameters[cite: 1].
+*   **Product Detail Pages**: Dynamic `[id]` routes that fetch and display detailed specifications for each tile[cite: 1].
+*   **Custom Global UI**:
+    *   Centered, responsive navigation and category selection[cite: 1].
+    *   Custom **404 Not Found** page for graceful error handling[cite: 1].
+    *   Integrated **Loading Spinners** to improve perceived performance during data fetching[cite: 1].
+*   **Mobile-First Design**: Fully responsive layout optimized for all screen sizes.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack & NPM Packages
+This project utilizes a cutting-edge JavaScript ecosystem:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Category | Technology / Package |
+| :--- | :--- |
+| **Framework** | **Next.js 15+** (App Router) |
+| **Styling** | **Tailwind CSS**, **daisyUI**[cite: 1] |
+| **UI Components** | **HeroUI** (formerly NextUI)[cite: 1] |
+| **Authentication** | **Better-auth**[cite: 1] |
+| **Icons** | **Lucide React** |
+| **Data Fetching** | **Native Fetch API** (Server-side) |
+| **Backend/DB** | **MockAPI** (for tile data), **MongoDB** (for auth)[cite: 1] |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Author
+**Juadul Ahmed Bhuiyan**[cite: 1]  
+Student & Full-Stack Developer  
+*Currently exploring the React ecosystem.*[cite: 1]
