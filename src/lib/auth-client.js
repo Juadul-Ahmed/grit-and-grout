@@ -1,7 +1,9 @@
 import { createAuthClient } from "better-auth/react"
+
 export const authClient = createAuthClient({
-    /** The base URL of the server (optional if you're using the same domain) */
-    baseURL: "https://slab-studio.vercel.app"
+    // This correctly points to your production server
+    baseURL: "https://slab-studio.vercel.app" 
 })
 
-export const { signIn, signUp, useSession } = createAuthClient()
+// Destructure from the 'authClient' instance you just created above
+export const { signIn, signUp, useSession } = authClient
